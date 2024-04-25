@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trang chủ</title>
+	<link rel="stylesheet" type="text/css" href="b.css">
+</head>
+<body>
+	<div id="baner">
+		<img src="logo.png" width="800px" height="100px">
+		<img src="flag.gif" id="flag" width="100px" height="30px">
+	</div>
+	<div id="menu">
+		<table>
+			<tr>
+				<td><a href="tc.html"><img src="Home.gif"></a></td>
+				<td><a href="tc.html">TRANG CHỦ</a></td>
+				<td><a href="ts.html">THÔNG TIN TUYỂN SINH</a></td>
+                <td><a href="dt.html">ĐÀO TẠO</a></td>
+				<td style="background-color: red;"><a href="ttcn.html" style="color: yellow;">THÔNG TIN CÁ NHÂN</a></td>
+				<td><a href="ctdt.html">CHƯƠNG TRÌNH ĐÀO TẠO</a></td>
+				<td><a href="ctw.html">CHƯƠNG TRÌNH WEB</a></td>
+				<td><a href="lh.html">LIÊN HỆ</a></td>
+			</tr>
+		</table>
+	</div>
+	<div id="main">
+		<div id="left">
+			<h3>LIÊN KẾT TRONG</h3>
+			<ul>
+				<li><a href="ts.html">THÔNG TIN TUYỂN SINH</a></li>
+				<li><a href="ttcn.html">THÔNG TIN CÁ NHÂN</a></li>
+				<li><a href="ctdt.html">CHƯƠNG TRÌNH ĐÀO TẠO</a></li>
+				<li><a href="ctw.html">CHƯƠNG TRÌNH WEB</a></li>
+				<li><a href="lh.html">LIÊN HỆ</a></li>
+			</ul>
+			<hr>
+			<h3>LIÊN KẾT NGOÀI</h3>
+			<ul>
+				<li><a href="http://vku.udn.vn">Đại học Việt Hàn</a></li>
+				<li><a href="http://ufl.udn.vn">Đại học Ngoại Ngữ</a></li>
+				<li><a href="http://due.udn.vn">Đại học Kinh Tế</a></li>
+				<li><a href="http://dut.udn.vn">Đại học Bách Khoa</a></li>
+			</ul>
+		</div>
+		<div id="right">
+			<form action="">
+				<table style="margin-left: 30px;">
+					<tr>
+						<td colspan="3" align="center" style="color: red;"><h2>ĐĂNG KÝ THÀNH VIÊN</h2></td>
+					</tr>
+					<tr>
+						<td colspan="3"><b>THÔNG TIN TÀI KHOẢN</b></td>
+					</tr>
+					<tr>
+						<td><label for="username">Username:</label></td>
+						<td colspan="2"><input type="text" name="username" id="username" placeholder="Nhập username"></td>
+					</tr>
+					<tr>
+						<td><label for="pass">Password:</label></td>
+						<td colspan="2"><input type="password" name="pass" inputmode="pass" placeholder="Nhập Password"></td>
+					</tr>
+					<tr>
+						<td><label for="retype">Nhập lại Password:</label></td>
+						<td colspan="2"><input type="password" name="retype" id="retype" placeholder="Nhập lại Password"></td>
+					</tr>
+					<tr>
+						<td colspan="3"><b>THÔNG TIN CÁ NHÂN</b></td>
+					</tr>
+					<tr>
+						<td><label for="name">Họ và tên:</label></td>
+						<td colspan="2"><input type="text" name="name" id="name" placeholder="Nhập họ và tên"></td>
+					</tr>
+					<tr>
+						<td><label for="sex">Giới tính:</label></td>
+						<td colspan="2">
+							<select id="sex">
+								<option value="Nam" id="sex">Nam</option>
+								<option value="Nữ" id="sex">Nữ</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="address">Địa chỉ:</label></td>
+						<td colspan="2"><textarea id="address" placeholder="Nhập địa chỉ"></textarea></td>
+					</tr>
+					<tr>
+						<td><label for="date">Ngày sinh:</label></td>
+						<td colspan="2"><input type="date" name="date" id="date"></td>
+					</tr>
+					<tr>
+						<td><label for="email">Email:</label></td>
+						<td colspan="2"><input type="email" name="email" id="email" placeholder="mailname@gmail.com"></td>
+					</tr>
+					<tr>
+						<td rowspan="2">Tình trạng hôn nhân</td>
+						<td><input type="radio" name="marriage" id="marriage">Độc thân</td>
+						<td><input type="radio" name="marriage" id="marriage">Đã đính hôn</td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="marriage" id="marriage">Ly dị</td>
+						<td><input type="radio" name="marriage" id="marriage">Góa phụ</td>
+					</tr>
+					<tr>
+						<td colspan="3" align="center">
+							<input type="submit" value="Gửi đi">
+							<input type="reset" value="Nhập lại">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+	<div id="footer">
+		<p>Đại Học Đà Nẵng <br> Bản quyền thuộc Trường Đại học Công nghệ Thông tin và Truyền thông Việt Hàn - Đại học Đà Nẵng 2024 <br> Số điện thoại: 0901234567</p>
+	</div>
+</body>
+</html>
